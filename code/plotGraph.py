@@ -1,10 +1,10 @@
-#!/usr/bin/python 3
+#!/usr/bin/python3
 
 import matplotlib.pyplot as plt
 import datetime
 import pandas as pd
 
-data = pd.read_csv('weather_data.csv',parse_dates='date-time')
+data = pd.read_csv('weather_data.csv',parse_dates=True)
 x = data['date-time']
 t = data['temperature']
 h = data['humidity']
