@@ -5,7 +5,7 @@ import datetime
 import pandas as pd
 
 data = pd.read_csv('weather_data.csv',parse_dates=True)
-x = data['date-time']
+x = pd.to_datetime(data['date-time'])
 t = data['temperature']
 h = data['humidity']
 plt.xlabel('Real-Time') 
