@@ -1,4 +1,4 @@
 # Weather Station Graph
 
-![Weather Graph](images/graph.png "Weather Graph")
+![Weather Graph](images/weather.png "Weather Graph")
 
